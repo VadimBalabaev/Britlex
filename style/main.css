@@ -1,0 +1,137 @@
+:root {
+    --color-text: #8f95a5;
+    --color-btn: #263238;
+    --color-h3: #263238;
+    --color-h2: #000;
+}
+
+/* font-family: "Poppins", sans-serif; */
+button {
+    transition: background-color 0.6s, color 0.6s, transform 0.5s ease ;
+}
+button:hover {
+    background-color: #fff;
+    color: #000;
+    border: var(--color-btn) solid 2px;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+.container {
+    width: 1340px;
+    margin-left: 129px;
+}
+
+.header {
+
+}
+.header__inner {
+
+}
+.header__top {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin-top: -7px;
+    margin-left: 2px;
+}
+
+.menu {
+    width: 42.4%;
+    display: flex;
+    justify-content: space-between;
+}
+.menu__item {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--color-h3);
+}
+.menu__item a {
+    transition: transform 0.5s ease ;
+}
+.menu__item a:hover {
+    color: var(--color-h2);
+    transform: scale(110%);
+}
+.header__btn {
+    padding: 15px 56px;
+    font-weight: 400;
+    font-size: 24px;
+    border: var(--color-btn) solid 2px;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: background-color 0.6s, color 0.6s, transform 0.5s ease ;
+}
+.header__btn:hover {
+    color: #fff;
+    transform: scale(110%);
+    background-color: var(--color-btn);
+}
+.menu li:nth-child(1) {
+    width: 20%;
+    padding-left: 30px;
+}
+.menu li:nth-child(2) {
+    width: 20%;
+    padding-left: 3px;
+    margin-right: -39px;
+}
+.menu li:nth-child(3) {
+    width: 20%;
+}
+.menu li:nth-child(4) {
+    width: 20%;
+    padding-left: 23px;
+}
+.menu li:nth-child(5) {
+    width: 20%;
+}
+.header__info {
+    width: 1348px;
+    display: flex;
+    align-items: center;
+}
+.header__info-block {
+    height: 567px;
+    display: flex;
+    flex-direction: column;
+}
+.header__info-title {
+    display: flex;
+    padding-top: 3px;
+    width: 544px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 125%;
+    color: var(--color-h2);
+    margin-bottom: 42px;
+}
+.header__info-title::after {
+    content: url(../img/light-bulb.svg);
+    padding-top: 94px;
+}
+.header__info-text {
+    width: 525px;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--color-text);
+    margin-bottom: 65px;
+}
+.header__info-btn {
+    width: 438px;
+    padding: 32px 72px;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+    background-color: var(--color-btn);
+}
+.header__img {
+    margin-left: 143px;
+    width: 661px;
+    height: 661px;
+}
+
