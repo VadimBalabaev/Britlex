@@ -148,6 +148,7 @@ h3 {
 }
 
 .skills {
+    margin-bottom: 282px;
 }
 .skills__title {
     text-align: center;
@@ -268,4 +269,61 @@ h3 {
 .grid__item4-img {
     width: 44%;
     margin: -2px 24px 0 0;
+}
+/* About */
+.about {
+    
+}
+.about__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.about__info {
+    max-width: 636px;
+    padding-left: 1px;
+}
+.about__title {
+    margin-bottom: 22px;
+}
+.about__text {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color-text);
+    margin-bottom: 40px;
+}
+.about__stats {
+    max-width: 604px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.about__stats ul:nth-child(2) {
+    padding-left: 45px;
+    width: 25%;
+}
+.about__stats ul:nth-child(2) li:nth-child(2) {
+    padding-left: 5px;
+}
+.about__stats ul:nth-child(3) li:first-child {
+    margin-right: 9px;
+}
+.about__stats ul:nth-child(3) li:last-child {
+    margin-top: -5px;
+    margin-right: -8px;
+}
+.about__stats li {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color-text);
+}
+.about__stats ul li:first-child {
+    font-weight: 601;
+    font-size: 48px;
+    line-height: 167%;
+    color: #2a3246;
+}
+.about__img {
+    max-width: 600px;
+    margin-top: -30px;
+    padding-right: 9px;
 }
