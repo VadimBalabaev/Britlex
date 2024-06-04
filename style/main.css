@@ -329,6 +329,7 @@ h3 {
 }
 /* Pricing */
 .pricing {
+    margin-bottom: 252px;
 }
 .pricing__title {
     text-align: center;
@@ -408,4 +409,53 @@ h3 {
 }
 .pricing__three li:last-child {
     margin-left: -3px;
+}
+/* Contact */
+.contact {
+}
+.contact__inner {
+    display: flex;
+}
+.contact__img {
+    margin-left: -15px;
+}
+.contact__flex {
+    padding-left: 109px;
+    display: flex;
+    flex-direction: column;
+}
+.contact__title {
+    padding-top: 35px;
+    margin-bottom: 35px;
+}
+.contact__text {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color-text);
+    margin-bottom: 52px;
+}
+.form__connection {
+    display: flex;
+}
+.input {
+    min-width: 450px;
+    min-height: 80px;
+    border: 1px solid var(--color-text);
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-text);
+    padding-left: 33px;
+}
+input[type=submit] {
+    background-color: var(--color-btn);
+    border-radius: 10px;
+    color: #FFF;
+}
+.input-button {
+    min-width: 264px;
+    min-height: 80px;
+    margin-left: 12px;
+    font-weight: 500;
+    font-size: 20px;
 }
