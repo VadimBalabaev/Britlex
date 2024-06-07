@@ -31,7 +31,7 @@ h3 {
 }
 .container {
     width: 1340px;
-    margin-left: 129px;
+    margin: 0 auto;
 }
 
 .header {
@@ -412,6 +412,7 @@ h3 {
 }
 /* Contact */
 .contact {
+    margin-bottom: 133px;
 }
 .contact__inner {
     display: flex;
@@ -458,4 +459,28 @@ input[type=submit] {
     margin-left: 12px;
     font-weight: 500;
     font-size: 20px;
+}
+.footer {
+}
+.footer__inner {
+}
+.footer__line {
+    height: 1px;
+    background: #c4c4c4;
+    margin-bottom: 40px;
+}
+.footer__flex {
+    padding-left: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__logo {
+    padding-bottom: 10px;
+}
+.footer__text_info {
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--color-text);
+    padding-top: 13px;
+    margin-right: -4px;
 }
